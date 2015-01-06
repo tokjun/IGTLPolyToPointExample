@@ -18,12 +18,14 @@ Install
 The program is written using CMake. Run CMake to generate a Makefile (Linux/Mac)
 or project file (Windows), and build. On Linux/Mac:
 
-> cd <working directory>
-> git clone https://github.com/tokjun/IGTLPolyToPointExample
-> mkdir IGTLPolyToPointExample-build
-> cd IGTLPolyToPointExample-build
-> cmake -DOpenIGTLink_DIR:STRING=<OpenIGTLink binary directory> ../IGTLPolyToPointExample
-> make
+```
+cd <working directory>
+git clone https://github.com/tokjun/IGTLPolyToPointExample
+mkdir IGTLPolyToPointExample-build
+cd IGTLPolyToPointExample-build
+cmake -DOpenIGTLink_DIR:STRING=<OpenIGTLink binary directory> ../IGTLPolyToPointExample
+make
+```
 
 
 Tutorial using Slicer
